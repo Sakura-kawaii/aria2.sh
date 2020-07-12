@@ -64,7 +64,7 @@ wget -N git.io/aria2.sh && chmod +x aria2.sh
 
 * 选择你要执行的选项
 ```
- Aria2 一键安装管理脚本 增强版 [v2.5.3] by P3TERX.COM
+ Aria2 一键安装管理脚本 增强版 [v2.6.0] by P3TERX.COM
  
   0. 升级脚本
  ———————————————————————
@@ -116,6 +116,14 @@ RPC 密钥：随机生成，可使用选项`7. 修改 配置文件`自定义
 
 更新推送：[Aria2 Channel](https://t.me/Aria2_Channel)
 
+### 2020-07-12 v2.6.0
+
+- 适配新版 [Aria2 完美配置](https://github.com/P3TERX/aria2.conf)
+- 移除 Aria2 版本选择功能
+
+<details>
+<summary>历史记录</summary>
+
 ### 2020-06-27 v2.5.3
 
 - 同步 Aria2 完美配置文件名改动
@@ -127,9 +135,6 @@ RPC 密钥：随机生成，可使用选项`7. 修改 配置文件`自定义
 - 解决 CLI 下`aria2c`无法直接下载的问题
 - 修改配置目录为`/root/.aria2c`
 - 修改下载目录为`/root/downloads`
-
-<details>
-<summary>历史记录</summary>
 
 ### 2020-05-20 v2.4.5
 
